@@ -13,4 +13,4 @@ HTML project by KBK group
 - Helmy Farikh -> Product Page & Halaman Chat
 - Muhammad Faqih -> Home Page
 - Ayu Lestari -> Sell Page
-- Francisca Isabella -> Wishlist Page
+- Francisca Isabella -> Wishlist Page, ulasan produk
