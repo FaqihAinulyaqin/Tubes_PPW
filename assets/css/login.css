@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-section {
+    width: 852px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.right-section {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #c2d2e6;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+
+.women {
+    width: 455px; 
+    height: 439px; 
+    object-fit: cover; 
+}
+
+.login-form {
+    width: 100%;
+    max-width: 320px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.security {
+    width: 300px;
+    margin-bottom: 20px;
+    object-fit: cover; 
+}
+
+.kucing {
+    width: 93px;
+    height: 71px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    color: #000000;
+    font-size: 20;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: #333;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+}
+
+.remember-me input[type="checkbox"] {
+    margin: 0; 
+}
+
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #000;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: #555;
+}
