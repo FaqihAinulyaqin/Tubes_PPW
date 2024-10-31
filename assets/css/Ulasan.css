@@ -104,68 +104,112 @@
 .dropdown-content a:hover {
   background-color: #f1f1f1;
 }
-  
 main {
-  padding: 100px 20px 20px; 
-}
-  
-h1 {
-   margin-bottom: 20px;
-    padding: 20px 20px;
-  }
-
-.card {
-    width: 100%;
-    height: 400px;
-    margin: 0 auto;
-    background-color: #d2d2dd;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-
-.card-top {
-    height: 70%;
-    background-color: #d2d2dd;
-    padding: 20px;
+    padding: 100px 0 20px;
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    max-width: 800px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.produk {
+    display: flex;
     align-items: flex-start;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
 }
 
-.card-bottom {
-    height: 30%;
-    background-color: #fff;
-    padding: 15px;
-    text-align: left;
-    border-radius: 0 0 10px 10px;
+.produk img {
+    width: 150px;
+    height: auto;
+    margin-right: 80px;
+    border-radius: 8px;
 }
 
-.heart {
-    padding: 10px;
+.produk div {
+    flex: 1;
+    padding-top: 20px;
 }
 
-.card-bottom p {
-    margin-bottom: 5px;
+.produk p {
+    margin-bottom: 10px;
 }
 
-.wishlist-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 0 20px;
+.rating{
+    width: 100%;
+    max-width: 600px;
+    padding: 20px 0;
 }
 
-@media screen and (max-width: 860px) {
-  .wishlist-container {
-      grid-template-columns: repeat(3, 1fr);
-  }
+.form-group {
+    margin-bottom: 24px;
 }
 
-@media screen and (max-width: 600px) {
-  .wishlist-container {
-      grid-template-columns: repeat(2, 1fr);
-  }
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #333;
 }
+
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    resize: vertical;
+    min-height: 120px;
+}
+
+.file-upload-wrapper {
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.file-upload-label:hover {
+    background-color: #eee;
+}
+
+.upload-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.preview-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4A90E2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #357ABD;
+}
+
