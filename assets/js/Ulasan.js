@@ -6,9 +6,9 @@ $("#search-icon").click(function() {
     }
 });
 
-$(document).click(function(event) {
-    const $searchInput = $("#search-input");
-    if (!$(event.target).closest("#search-icon, #search-input").length) {
-        $searchInput.hide();
-    }
+$(document).ready(function() {
+    $("#review-form").submit(function(event) {
+        event.preventDefault(); 
+        alert("Ulasan anda berhasil diupload!");
+    });
 });
