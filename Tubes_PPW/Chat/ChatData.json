@@ -1,0 +1,22 @@
+{
+    "profile_image": {
+        "alt": "User Avatar",
+        "src": "Asset/PP.png"
+    },
+    "chat_info": [
+    {
+        "name": "JisooNampyeon",
+        "status_user": "Penjual",
+        "message": "",
+        "date": ""
+    }
+    ],
+    "chat_header": {
+        "user_avatar": {
+            "alt": "User Avatar",
+            "src": "Asset/PP.png"
+        },
+        "name": "JisooNampyeon",
+        "status": "Online"
+    }
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Camera",
+        "price": "$200",
+        "description": "A high-quality camera.",
+        "image": "assets/img/camera.png"
+    },
+    {
+        "name": "Boots",
+        "price": "$150",
+        "description": "Stylish boots for everyday wear.",
+        "image": "assets/img/boots.png"
+    },
+    {
+        "name": "Guitar",
+        "price": "$300",
+        "description": "An acoustic guitar.",
+        "image": "assets/img/gitar.png"
+    },
+    {
+        "name": "Light Stick",
+        "price": "$50",
+        "description": "A glowing light stick.",
+        "image": "assets/img/light stick.png"
+    }
+]

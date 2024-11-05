@@ -1,0 +1,27 @@
+{
+    "images": [
+        { "file": "Asset/image 4.png", "alt": "foto utama" },
+        { "file": "Asset/image 6.png", "alt": "Foto1" },
+        { "file": "Asset/image 4.png", "alt": "Foto2" },
+        { "file": "Asset/image 8.png", "alt": "Foto3" },
+        { "file": "Asset/image 9.png", "alt": "Foto4" },
+        { "file": "Asset/PP.png", "alt": "User profile picture" }
+    ],
+    "profile": {
+        "name": "JisooNampeyon"
+    },
+    "productTitle": "Sepatu Nike Huarache Edge Size 42 Second Bekas",
+    "rating": {
+        "stars": 5,
+        "reviews": 50
+    },
+    "price": "Rp240.000",
+    "details": [
+        "READY STOCK! Selama tombol \"BELI\" bisa di klik, Tidak perlu tanya ready stock atau tidak nya, langsung order saja pasti ready dan langsung dikirim.",
+        "- Nike Huarache EDGE second",
+        "- Minus pemakaian seperti di foto",
+        "- Insole bawaan",
+        "- Replacement Box",
+        "Size 42 insole 26,5cm"
+    ]
+}

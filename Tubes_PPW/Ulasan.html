@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ulasan</title>
+    <link rel="stylesheet" href="assets/css/Ulasan.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <a href="/HalamanUtama.html">
+            <img alt="Logo" height="40" src="/HalamanProduk/Asset/Logo.png" width="auto" />
+          </a>
+          <div class="dropdown">
+            <button class="dropbtn">Categories <img src="assets/img/dropdown.png" alt=""></button>
+            <div class="dropdown-content">
+                <a href="#">Category 1</a>
+                <a href="#">Category 2</a>
+                <a href="#">Category 3</a>
+            </div>
+          </div>
+        </div>
+        <nav>
+          <button id="search-icon">
+            <img src="assets/img/search.png" alt="Search" class="icon">
+          </button> 
+          <input type="text" id="search-input" placeholder="Search" style="display: none;">   
+          <button>
+            <img src="assets/img/loved.png" alt="Love" class="icon">
+          </button>
+          <button>
+            <img src="assets/img/account.png" alt="Account" class="icon">
+          </button>
+          <span>Hi, Francisca</span>
+          <a href="TambahProduk.html">
+            <button class="sell-button">Sell</button>
+          </a>
+        </nav>
+      </header>
+      <main>
+        <h1>Ulasan</h1>
+        <div class="container">
+            <div class="produk">
+                <img src="assets/img/camera.png" alt="produk">
+                <div>
+                    <p><strong>Name</strong></p>
+                    <p>Price</p>
+                    <p>Product Description</p>
+                </div>
+            </div>
+            <form id="review-form"  class="rating">
+                <div class="form-group">
+                    <label for="review-text">Berikan deskripsi penilaian mu :</label>
+                    <textarea id="review-text" name="review-text" rows="4" placeholder="berikan deskripsi anda disini..."></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="photo-upload">Tambah Foto :</label>
+                    <div class="file-upload-wrapper">
+                        <input type="file" id="photo-upload" name="photo-upload">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Rating :</label>
+                </div>
+                <button type="submit" class="submit-button">Kirim Ulasan</button>
+            </form>        
+        </div>
+      </main>
+    <script src="assets/js/Ulasan.js"></script>
+</body>
+</html>
