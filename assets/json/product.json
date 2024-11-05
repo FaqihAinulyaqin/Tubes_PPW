@@ -1,0 +1,26 @@
+[
+    {
+        "image": "assets/img/contohproduk.png",
+        "name": "contoh",
+        "price": "Rp 4.000.000",
+        "description": "ini hanya contoh"
+    },
+    {
+        "image": "assets/img/contohproduk.png",
+        "name": "contoh",
+        "price": "Rp 4.000.000",
+        "description": "ini hanya contoh"
+    },
+    {
+        "image": "assets/img/contohproduk.png",
+        "name": "contoh",
+        "price": "Rp 4.000.000",
+        "description": "ini hanya contoh"
+    },
+    {
+        "image": "assets/img/contohproduk.png",
+        "name": "contoh",
+        "price": "Rp 4.000.000",
+        "description": "ini hanya contoh"
+    }
+]

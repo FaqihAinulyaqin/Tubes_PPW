@@ -87,24 +87,24 @@ body {
     margin-bottom: 20px;
 }
 .recommendation table {
-    width: 100%;
-    border-collapse: separate;
+    table-layout: fixed;
     border-spacing: 10px;
 }
 .recommendation table tr{
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .recommendation table td {
+    width: 350px;
     background-color: white;
     border-radius: 10px;
-    width: auto;
     padding: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    overflow: hidden;
 }
 .recommendation table img {
-    width: 100%;
     border-radius: 10px;
+}
+.recommendation .product-image {
+    text-align: center;
 }
 .recommendation .info {
     padding: 10px;
@@ -112,15 +112,9 @@ body {
 .recommendation .info .name {
     font-weight: bold;
 }
-.recommendation .info .price {
-    color: gray;
-}
-.recommendation .info .description {
-    color: gray;
-}
 .recommendation .favorite {
     float: right;
-    color: gray;
+    color: red;
     cursor: pointer;
     padding: 5px;
 }
