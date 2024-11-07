@@ -43,3 +43,14 @@ $(document).ready(function() {
 function toggleFavorite(icon) {
     $(icon).toggleClass('fas far');
 }
+
+$(document).ready(function() {
+    const storedUserData = localStorage.getItem('user');
+
+    if (storedUserData) {
+        const user = JSON.parse(storedUserData);
+        $('#user-name').text(user.username);
+    } else {
+        console.log('User not found in localStorage');
+    }
+});
