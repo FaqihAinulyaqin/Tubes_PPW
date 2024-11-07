@@ -6,7 +6,14 @@ function Search() {
     if (username === "" || password === "") {
         alert("Username dan Password tidak boleh kosong!");
     } else {
-        // Pindah ke halaman Search.html
+        const userData = {
+            username: username,
+            password: password
+        };
+        localStorage.setItem('user', JSON.stringify(userData));
+
         window.location.href = 'HalamanUtama.html';
     }
 }
+
+
