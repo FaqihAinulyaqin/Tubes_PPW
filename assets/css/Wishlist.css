@@ -152,7 +152,7 @@ h1 {
   position: relative;
   margin: auto;
   display: flex;
-  align-items: center; /* Center secara vertikal */
+  align-items: center; 
   justify-content: center;
 }
 

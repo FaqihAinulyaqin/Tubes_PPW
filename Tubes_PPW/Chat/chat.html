@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="chat.css">
+    <script src="chat.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <div class="header-left">
+            <img alt="Logo" src="Asset/Logo.png" />
+            <div class="dropdown">
+                <a>Categories <i class="fas fa-chevron-down"></i></a>
+                <div class="dropdown-content">
+                    <a href="#">Category 1</a>
+                    <a href="#">Category 2</a>
+                    <a href="#">Category 3</a>
+                </div>
+            </div>
+        </div>
+        <div class="nav">
+            <a href="#"><i class="fas fa-search"></i></a>
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <a href="#"><i class="fas fa-user"></i> Hi, Francisca </a>
+            <a class="sell" href="#">Sell</a>
+        </div>
+    </div>
+
+    <div class="chat-container">
+        <!-- Chat List Section -->
+        <div class="chat-list">
+            <div class="chat-header">
+                <a href="/HalamanProduk/HalamanProduk.HTML">
+                    <i class="fas fa-arrow-left"></i>
+                </a>
+                <span class="title">Chat</span>
+            </div>
+            <div class="chat-item">
+                <img alt="User Avatar" id="profile-image" class="profile-image"/>
+                <div class="chat-info">
+                    <div class="name">
+                        <span id="username" class="name"></span>
+                        <span id="status-user" class="status-user"></span>
+                    </div>
+                    <div id="message" class="message"></div>
+                    <div id="date" class="date"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Chat Content Section -->
+        <div class="chat-content">
+            <div class="chat-header">
+                <img alt="User Avatar" id="header-avatar" class="header-avatar"/>
+                <div>
+                    <div id="chat-header-name" class="name"></div>
+                    <div id="chat-header-status" class="status"></div>
+                </div>
+            </div>
+            <div class="chat-area">
+                <div class="chat-message"></div>
+            </div>
+            <div class="chat-footer">
+                <input id="message-input" placeholder="Write your message here...." type="text"/>
+                <button class="send-button" onclick="sendMessage()">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+</html>

@@ -130,8 +130,9 @@ h1 {
 .produk {
     display: flex;
     align-items: flex-start;
-    margin-bottom: 30px;
+    margin-bottom: 40;
     padding-bottom: 20px;
+    padding-left: 70px;
     border-bottom: 1px solid #eee;
 }
 
@@ -178,25 +179,8 @@ textarea {
     min-height: 120px;
 }
 
-.file-upload-wrapper {
-    position: relative;
-    margin-bottom: 12px;
-}
-
 .file-upload-label:hover {
     background-color: #eee;
-}
-
-.upload-icon {
-    width: 24px;
-    height: 24px;
-}
-
-.preview-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-top: 12px;
 }
 
 .submit-button {
@@ -213,4 +197,76 @@ textarea {
 .submit-button:hover {
     background-color: #357ABD;
 }
+
+.file-upload-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+.file-upload-wrapper:hover {
+  border-color: #888;
+}
+
+.upload-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #666;
+  font-size: 16px;
+}
+
+.upload-label:hover .upload-icon {
+  opacity: 1;
+}
+
+.upload-label span {
+  font-size: 14px;
+  color: #888;
+}
+.rating-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.rating-star {
+  color: #ffe400;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-flex;
+  flex-direction: row-reverse; 
+  display: flex;
+}
+.rating-star input {
+  display: none;
+}
+
+.rating-star label {
+  color: #ddd;
+  font-size: 40px;
+  transition: color 0.3s;
+  font-size: 24px;
+  cursor: pointer;
+  margin-right: 5px;
+
+}
+.rating-star label:hover,
+.rating-star label:hover ~ label {
+  color: #ffeb3b; 
+}
+
+.rating-star input:checked ~ label {
+  color: #ffc107;
+}
+
 

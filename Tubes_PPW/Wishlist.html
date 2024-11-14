@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WishList</title>
+    <link rel="stylesheet" href="assets/css/Wishlist.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <a href="/HalamanUtama.html">
+            <img alt="Logo" height="40" src="HalamanProduk/Asset/Logo.png" width="auto" />
+          </a>
+          <div class="dropdown">
+            <button class="dropbtn">Categories <img src="assets/img/dropdown.png" alt="drop arrow"></button>
+            <div class="dropdown-content">
+                <a href="#">Category 1</a>
+                <a href="#">Category 2</a>
+                <a href="#">Category 3</a>
+            </div>
+            </div>
+        </div>
+        <nav>
+          <button id="search-icon">
+            <img src="assets/img/search.png" alt="Search" class="icon">
+          </button> 
+          <input type="text" id="search-input" placeholder="Search" style="display: none;">   
+          <button>
+            <img src="assets/img/loved.png" alt="Love" class="icon">
+          </button>
+          <button>
+            <img src="assets/img/account.png" alt="Account" class="icon">
+          </button>
+          <span>Hi, Francisca</span>
+          <a href="TambahProduk.html">
+            <button class="sell-button">Sell</button>
+          </a>
+          
+        </nav>
+      </header>
+      <main>
+        <h1>Wishlist</h1>
+        <div class="wishlist-container" id="wishlist-container"></div>
+      </main>
+      <script src="assets/js/Wishlist.js"></script>
+</body>
+</html>

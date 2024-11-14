@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Produk</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="StyleHalamanProduk.CSS">
+
+
+</head>
+<body>
+    <div class="header">
+        <div>
+            <a href="/HalamanUtama.html">
+                <img alt="Logo" height="40" src="Asset/Logo.png" width="auto" />
+            </a>
+            <div class="dropdown">
+                <a>Categories<i class="fas fa-chevron-down"></i></a>
+                <div class="dropdown-content">
+                    <a href="#">Category 1</a>
+                    <a href="#">Category 2</a>
+                    <a href="#">Category 3</a>
+                </div>
+            </div>
+        </div>
+        <div class="nav">
+            <a href="#"><i class="fas fa-search"></i></a>
+            <a href="/Wishlist.html"><i class="fas fa-heart"></i></a>
+            <a href="#"><i class="fas fa-user"></i> Hi, Francisca </a>
+            <a class="sell" href="/TambahProduk.html">Sell</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="left-section">
+            <div class="back-button">
+                <a href="../HalamanUtama.html">
+                    <i class="fas fa-arrow-left"></i>
+                </a>
+            </div>
+
+            <!-- Main image -->
+            <img id="main-image" src="" alt="" class="main-image">
+            
+            <!-- Thumbnails container -->
+            <div id="thumbnail-container" class="thumbnail-container"></div>
+        </div>
+        
+        <div class="right-section">
+            <!-- Profile section -->
+            <div class="profile">
+                <img id="profile-image" src="" alt="User profile picture">
+                <p id="profile-name"></p>
+            </div>
+
+            <!-- Product title -->
+            <h1 id="product-title" class="product-title"></h1>
+
+            <!-- Rating section -->
+            <div class="rating">
+                <a href="/Ulasan.html">
+                    <div id="star-rating"></div>
+                </a>
+                <p id="review-count"></p>
+            </div>
+
+            <!-- Price -->
+            <p id="price" class="price"></p>
+
+            <!-- Details -->
+            <div class="details">
+                <h2>Details</h2>
+                <div id="details-content"></div>
+            </div>
+
+            <!-- Button container -->
+            <div class="button-container">
+                <a href="/Chat/chat.html">
+                    <button class="chat-button">Chat Penjual Sekarang</button>
+                </a>
+                <button class="wishlist-button"><i class="fas fa-heart"></i></button>
+            </div>
+
+            <!-- Delivery info -->
+            <div class="delivery-info">
+                <i class="fas fa-truck"></i>
+                <p>Free Delivery around Telkom University</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="ScriptHalamanProduk.js"></script>
+</body>
+</html>
